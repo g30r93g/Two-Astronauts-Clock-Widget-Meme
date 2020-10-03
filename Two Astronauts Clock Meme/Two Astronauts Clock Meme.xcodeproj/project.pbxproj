@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F35CAFA2528BCBE009D9371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35CAF92528BCBE009D9371 /* AppDelegate.swift */; };
+		1F35CAFC2528BCBE009D9371 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35CAFB2528BCBE009D9371 /* SceneDelegate.swift */; };
+		1F35CAFE2528BCBE009D9371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35CAFD2528BCBE009D9371 /* ViewController.swift */; };
+		1F35CB012528BCBE009D9371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F35CAFF2528BCBE009D9371 /* Main.storyboard */; };
+		1F35CB032528BCBF009D9371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F35CB022528BCBF009D9371 /* Assets.xcassets */; };
+		1F35CB062528BCBF009D9371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F35CB042528BCBF009D9371 /* LaunchScreen.storyboard */; };
+		1F35CB112528BCBF009D9371 /* Two_Astronauts_Clock_MemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35CB102528BCBF009D9371 /* Two_Astronauts_Clock_MemeTests.swift */; };
+		1F35CB1C2528BCBF009D9371 /* Two_Astronauts_Clock_MemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35CB1B2528BCBF009D9371 /* Two_Astronauts_Clock_MemeUITests.swift */; };
+		1F35CB312528BEB7009D9371 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F35CB302528BEB7009D9371 /* Roboto.ttf */; };
+		1F35CB392528BEFF009D9371 /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F35CB382528BEFF009D9371 /* Round.swift */; };
+		1F4EB3D42528CE5200B3C18E /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F35CB302528BEB7009D9371 /* Roboto.ttf */; };
+		1F4EB3DB2528CFA300B3C18E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EB3DA2528CFA300B3C18E /* Date.swift */; };
+		1F4EB3E42528CFA600B3C18E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EB3DA2528CFA300B3C18E /* Date.swift */; };
+		1F4EB3E92528D00400B3C18E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F35CB022528BCBF009D9371 /* Assets.xcassets */; };
+		1FCF18002528CC050064F3B2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCF17FF2528CC050064F3B2 /* WidgetKit.framework */; };
+		1FCF18022528CC050064F3B2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCF18012528CC050064F3B2 /* SwiftUI.framework */; };
+		1FCF18052528CC050064F3B2 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCF18042528CC050064F3B2 /* Widget.swift */; };
+		1FCF18072528CC070064F3B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCF18062528CC070064F3B2 /* Assets.xcassets */; };
+		1FCF180B2528CC070064F3B2 /* WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FCF17FD2528CC050064F3B2 /* WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F35CB0D2528BCBF009D9371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F35CAEE2528BCBE009D9371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F35CAF52528BCBE009D9371;
+			remoteInfo = "Two Astronauts Clock Meme";
+		};
+		1F35CB182528BCBF009D9371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F35CAEE2528BCBE009D9371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F35CAF52528BCBE009D9371;
+			remoteInfo = "Two Astronauts Clock Meme";
+		};
+		1FCF18092528CC070064F3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F35CAEE2528BCBE009D9371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FCF17FC2528CC050064F3B2;
+			remoteInfo = WidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1FCF180C2528CC070064F3B2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1FCF180B2528CC070064F3B2 /* WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F35CAF62528BCBE009D9371 /* Two Astronauts Clock Meme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two Astronauts Clock Meme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F35CAF92528BCBE009D9371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F35CAFB2528BCBE009D9371 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F35CAFD2528BCBE009D9371 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F35CB002528BCBE009D9371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F35CB022528BCBF009D9371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F35CB052528BCBF009D9371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F35CB072528BCBF009D9371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F35CB0C2528BCBF009D9371 /* Two Astronauts Clock MemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two Astronauts Clock MemeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F35CB102528BCBF009D9371 /* Two_Astronauts_Clock_MemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Astronauts_Clock_MemeTests.swift; sourceTree = "<group>"; };
+		1F35CB122528BCBF009D9371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F35CB172528BCBF009D9371 /* Two Astronauts Clock MemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two Astronauts Clock MemeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F35CB1B2528BCBF009D9371 /* Two_Astronauts_Clock_MemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_Astronauts_Clock_MemeUITests.swift; sourceTree = "<group>"; };
+		1F35CB1D2528BCBF009D9371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F35CB302528BEB7009D9371 /* Roboto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Roboto.ttf; sourceTree = "<group>"; };
+		1F35CB382528BEFF009D9371 /* Round.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
+		1F4EB3DA2528CFA300B3C18E /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		1FCF17FD2528CC050064F3B2 /* WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCF17FF2528CC050064F3B2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		1FCF18012528CC050064F3B2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1FCF18042528CC050064F3B2 /* Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
+		1FCF18062528CC070064F3B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FCF18082528CC070064F3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F35CAF32528BCBE009D9371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F35CB092528BCBF009D9371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F35CB142528BCBF009D9371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCF17FA2528CC050064F3B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCF18022528CC050064F3B2 /* SwiftUI.framework in Frameworks */,
+				1FCF18002528CC050064F3B2 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F35CAED2528BCBE009D9371 = {
+			isa = PBXGroup;
+			children = (
+				1F35CAF82528BCBE009D9371 /* Two Astronauts Clock Meme */,
+				1F35CB0F2528BCBF009D9371 /* Two Astronauts Clock MemeTests */,
+				1F35CB1A2528BCBF009D9371 /* Two Astronauts Clock MemeUITests */,
+				1FCF18032528CC050064F3B2 /* Widget */,
+				1FCF17FE2528CC050064F3B2 /* Frameworks */,
+				1F35CAF72528BCBE009D9371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F35CAF72528BCBE009D9371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F35CAF62528BCBE009D9371 /* Two Astronauts Clock Meme.app */,
+				1F35CB0C2528BCBF009D9371 /* Two Astronauts Clock MemeTests.xctest */,
+				1F35CB172528BCBF009D9371 /* Two Astronauts Clock MemeUITests.xctest */,
+				1FCF17FD2528CC050064F3B2 /* WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F35CAF82528BCBE009D9371 /* Two Astronauts Clock Meme */ = {
+			isa = PBXGroup;
+			children = (
+				1F35CAF92528BCBE009D9371 /* AppDelegate.swift */,
+				1F35CAFB2528BCBE009D9371 /* SceneDelegate.swift */,
+				1F35CB2C2528BEAA009D9371 /* Views */,
+				1F4EB3D92528CF9900B3C18E /* Extensions */,
+				1F35CB022528BCBF009D9371 /* Assets.xcassets */,
+				1F35CB302528BEB7009D9371 /* Roboto.ttf */,
+				1F35CB042528BCBF009D9371 /* LaunchScreen.storyboard */,
+				1F35CB072528BCBF009D9371 /* Info.plist */,
+			);
+			path = "Two Astronauts Clock Meme";
+			sourceTree = "<group>";
+		};
+		1F35CB0F2528BCBF009D9371 /* Two Astronauts Clock MemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F35CB102528BCBF009D9371 /* Two_Astronauts_Clock_MemeTests.swift */,
+				1F35CB122528BCBF009D9371 /* Info.plist */,
+			);
+			path = "Two Astronauts Clock MemeTests";
+			sourceTree = "<group>";
+		};
+		1F35CB1A2528BCBF009D9371 /* Two Astronauts Clock MemeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F35CB1B2528BCBF009D9371 /* Two_Astronauts_Clock_MemeUITests.swift */,
+				1F35CB1D2528BCBF009D9371 /* Info.plist */,
+			);
+			path = "Two Astronauts Clock MemeUITests";
+			sourceTree = "<group>";
+		};
+		1F35CB2C2528BEAA009D9371 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F35CAFF2528BCBE009D9371 /* Main.storyboard */,
+				1F35CAFD2528BCBE009D9371 /* ViewController.swift */,
+				1F35CB382528BEFF009D9371 /* Round.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F4EB3D92528CF9900B3C18E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1F4EB3DA2528CFA300B3C18E /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1FCF17FE2528CC050064F3B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FCF17FF2528CC050064F3B2 /* WidgetKit.framework */,
+				1FCF18012528CC050064F3B2 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FCF18032528CC050064F3B2 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				1FCF18042528CC050064F3B2 /* Widget.swift */,
+				1FCF18062528CC070064F3B2 /* Assets.xcassets */,
+				1FCF18082528CC070064F3B2 /* Info.plist */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F35CAF52528BCBE009D9371 /* Two Astronauts Clock Meme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F35CB202528BCBF009D9371 /* Build configuration list for PBXNativeTarget "Two Astronauts Clock Meme" */;
+			buildPhases = (
+				1F35CAF22528BCBE009D9371 /* Sources */,
+				1F35CAF32528BCBE009D9371 /* Frameworks */,
+				1F35CAF42528BCBE009D9371 /* Resources */,
+				1FCF180C2528CC070064F3B2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FCF180A2528CC070064F3B2 /* PBXTargetDependency */,
+			);
+			name = "Two Astronauts Clock Meme";
+			productName = "Two Astronauts Clock Meme";
+			productReference = 1F35CAF62528BCBE009D9371 /* Two Astronauts Clock Meme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F35CB0B2528BCBF009D9371 /* Two Astronauts Clock MemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F35CB232528BCBF009D9371 /* Build configuration list for PBXNativeTarget "Two Astronauts Clock MemeTests" */;
+			buildPhases = (
+				1F35CB082528BCBF009D9371 /* Sources */,
+				1F35CB092528BCBF009D9371 /* Frameworks */,
+				1F35CB0A2528BCBF009D9371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F35CB0E2528BCBF009D9371 /* PBXTargetDependency */,
+			);
+			name = "Two Astronauts Clock MemeTests";
+			productName = "Two Astronauts Clock MemeTests";
+			productReference = 1F35CB0C2528BCBF009D9371 /* Two Astronauts Clock MemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F35CB162528BCBF009D9371 /* Two Astronauts Clock MemeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F35CB262528BCBF009D9371 /* Build configuration list for PBXNativeTarget "Two Astronauts Clock MemeUITests" */;
+			buildPhases = (
+				1F35CB132528BCBF009D9371 /* Sources */,
+				1F35CB142528BCBF009D9371 /* Frameworks */,
+				1F35CB152528BCBF009D9371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F35CB192528BCBF009D9371 /* PBXTargetDependency */,
+			);
+			name = "Two Astronauts Clock MemeUITests";
+			productName = "Two Astronauts Clock MemeUITests";
+			productReference = 1F35CB172528BCBF009D9371 /* Two Astronauts Clock MemeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1FCF17FC2528CC050064F3B2 /* WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FCF180F2528CC070064F3B2 /* Build configuration list for PBXNativeTarget "WidgetExtension" */;
+			buildPhases = (
+				1FCF17F92528CC050064F3B2 /* Sources */,
+				1FCF17FA2528CC050064F3B2 /* Frameworks */,
+				1FCF17FB2528CC050064F3B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetExtension;
+			productName = WidgetExtension;
+			productReference = 1FCF17FD2528CC050064F3B2 /* WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F35CAEE2528BCBE009D9371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1F35CAF52528BCBE009D9371 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					1F35CB0B2528BCBF009D9371 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1F35CAF52528BCBE009D9371;
+					};
+					1F35CB162528BCBF009D9371 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1F35CAF52528BCBE009D9371;
+					};
+					1FCF17FC2528CC050064F3B2 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F35CAF12528BCBE009D9371 /* Build configuration list for PBXProject "Two Astronauts Clock Meme" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F35CAED2528BCBE009D9371;
+			productRefGroup = 1F35CAF72528BCBE009D9371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F35CAF52528BCBE009D9371 /* Two Astronauts Clock Meme */,
+				1F35CB0B2528BCBF009D9371 /* Two Astronauts Clock MemeTests */,
+				1F35CB162528BCBF009D9371 /* Two Astronauts Clock MemeUITests */,
+				1FCF17FC2528CC050064F3B2 /* WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F35CAF42528BCBE009D9371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F35CB062528BCBF009D9371 /* LaunchScreen.storyboard in Resources */,
+				1F35CB032528BCBF009D9371 /* Assets.xcassets in Resources */,
+				1F35CB012528BCBE009D9371 /* Main.storyboard in Resources */,
+				1F35CB312528BEB7009D9371 /* Roboto.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F35CB0A2528BCBF009D9371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F35CB152528BCBF009D9371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCF17FB2528CC050064F3B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCF18072528CC070064F3B2 /* Assets.xcassets in Resources */,
+				1F4EB3E92528D00400B3C18E /* Assets.xcassets in Resources */,
+				1F4EB3D42528CE5200B3C18E /* Roboto.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F35CAF22528BCBE009D9371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F35CAFE2528BCBE009D9371 /* ViewController.swift in Sources */,
+				1F4EB3DB2528CFA300B3C18E /* Date.swift in Sources */,
+				1F35CAFA2528BCBE009D9371 /* AppDelegate.swift in Sources */,
+				1F35CB392528BEFF009D9371 /* Round.swift in Sources */,
+				1F35CAFC2528BCBE009D9371 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F35CB082528BCBF009D9371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F35CB112528BCBF009D9371 /* Two_Astronauts_Clock_MemeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F35CB132528BCBF009D9371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F35CB1C2528BCBF009D9371 /* Two_Astronauts_Clock_MemeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCF17F92528CC050064F3B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCF18052528CC050064F3B2 /* Widget.swift in Sources */,
+				1F4EB3E42528CFA600B3C18E /* Date.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F35CB0E2528BCBF009D9371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F35CAF52528BCBE009D9371 /* Two Astronauts Clock Meme */;
+			targetProxy = 1F35CB0D2528BCBF009D9371 /* PBXContainerItemProxy */;
+		};
+		1F35CB192528BCBF009D9371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F35CAF52528BCBE009D9371 /* Two Astronauts Clock Meme */;
+			targetProxy = 1F35CB182528BCBF009D9371 /* PBXContainerItemProxy */;
+		};
+		1FCF180A2528CC070064F3B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FCF17FC2528CC050064F3B2 /* WidgetExtension */;
+			targetProxy = 1FCF18092528CC070064F3B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F35CAFF2528BCBE009D9371 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F35CB002528BCBE009D9371 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F35CB042528BCBF009D9371 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F35CB052528BCBF009D9371 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F35CB1E2528BCBF009D9371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F35CB1F2528BCBF009D9371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F35CB212528BCBF009D9371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V93A3ACV9;
+				INFOPLIST_FILE = "Two Astronauts Clock Meme/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.g30r93g.Two-Astronauts-Clock-Meme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F35CB222528BCBF009D9371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V93A3ACV9;
+				INFOPLIST_FILE = "Two Astronauts Clock Meme/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.g30r93g.Two-Astronauts-Clock-Meme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F35CB242528BCBF009D9371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V93A3ACV9;
+				INFOPLIST_FILE = "Two Astronauts Clock MemeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.g30r93g.Two-Astronauts-Clock-MemeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Two Astronauts Clock Meme.app/Two Astronauts Clock Meme";
+			};
+			name = Debug;
+		};
+		1F35CB252528BCBF009D9371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V93A3ACV9;
+				INFOPLIST_FILE = "Two Astronauts Clock MemeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.g30r93g.Two-Astronauts-Clock-MemeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Two Astronauts Clock Meme.app/Two Astronauts Clock Meme";
+			};
+			name = Release;
+		};
+		1F35CB272528BCBF009D9371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V93A3ACV9;
+				INFOPLIST_FILE = "Two Astronauts Clock MemeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.g30r93g.Two-Astronauts-Clock-MemeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Two Astronauts Clock Meme";
+			};
+			name = Debug;
+		};
+		1F35CB282528BCBF009D9371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V93A3ACV9;
+				INFOPLIST_FILE = "Two Astronauts Clock MemeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.g30r93g.Two-Astronauts-Clock-MemeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Two Astronauts Clock Meme";
+			};
+			name = Release;
+		};
+		1FCF180D2528CC070064F3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V93A3ACV9;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.g30r93g.Two-Astronauts-Clock-Meme.Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FCF180E2528CC070064F3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V93A3ACV9;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.g30r93g.Two-Astronauts-Clock-Meme.Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F35CAF12528BCBE009D9371 /* Build configuration list for PBXProject "Two Astronauts Clock Meme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F35CB1E2528BCBF009D9371 /* Debug */,
+				1F35CB1F2528BCBF009D9371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F35CB202528BCBF009D9371 /* Build configuration list for PBXNativeTarget "Two Astronauts Clock Meme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F35CB212528BCBF009D9371 /* Debug */,
+				1F35CB222528BCBF009D9371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F35CB232528BCBF009D9371 /* Build configuration list for PBXNativeTarget "Two Astronauts Clock MemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F35CB242528BCBF009D9371 /* Debug */,
+				1F35CB252528BCBF009D9371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F35CB262528BCBF009D9371 /* Build configuration list for PBXNativeTarget "Two Astronauts Clock MemeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F35CB272528BCBF009D9371 /* Debug */,
+				1F35CB282528BCBF009D9371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FCF180F2528CC070064F3B2 /* Build configuration list for PBXNativeTarget "WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCF180D2528CC070064F3B2 /* Debug */,
+				1FCF180E2528CC070064F3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F35CAEE2528BCBE009D9371 /* Project object */;
+}

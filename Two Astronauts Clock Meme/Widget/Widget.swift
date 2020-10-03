@@ -24,9 +24,12 @@ struct Provider: TimelineProvider {
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         let currentDate = Date().zeroSeconds!
         
-        entries.append(SimpleEntry(date: currentDate))
+        for i in 0..<10 {
+            entries.append(SimpleEntry(date: currentDate.addingTimeInterval(TimeInterval(i * 60))))
+        }
         
-        let timeline = Timeline(entries: entries, policy: .after(currentDate.addingTimeInterval(60)))
+        
+        let timeline = Timeline(entries: entries, policy: .atEnd)
         completion(timeline)
     }
 }
@@ -51,7 +54,8 @@ struct WidgetEntryView: View {
                     .offset(x: 15, y: 0)
                 
                 HStack {
-                    Text(self.determineTimeString())
+//                    Text(self.determineTimeString())
+                    Text(self.entry.date, style: .time)
                         .font(.custom("RobotoMonoForPowerline-Medium", size: 36))
                         .foregroundColor(.white)
                         .multilineTextAlignment(.center)

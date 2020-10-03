@@ -63,7 +63,7 @@
                                 </constraints>
                                 <segments>
                                     <segment title="Small"/>
-                                    <segment title="Medium" enabled="NO"/>
+                                    <segment title="Medium"/>
                                 </segments>
                                 <connections>
                                     <action selector="sizePickerChangedValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="pbI-aZ-FSO"/>

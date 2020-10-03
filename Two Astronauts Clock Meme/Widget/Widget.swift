@@ -51,7 +51,7 @@ struct WidgetEntryView: View {
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color(red: 0.80075246, green: 0.8225293, blue: 0.84079504))
                     .frame(width: 110, height: 18)
-                    .offset(x: 15, y: 0)
+                    .offset(x: 15, y: -5)
                 
                 HStack {
 //                    Text(self.determineTimeString())
@@ -72,7 +72,7 @@ struct WidgetEntryView: View {
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color(red: 0.80075246, green: 0.8225293, blue: 0.84079504))
                     .frame(width: 126.5, height: 16.5)
-                    .offset(x: -15, y: 0)
+                    .offset(x: -15, y: 5)
             }
             .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
             .background(Color(#colorLiteral(red: 0.06647213548, green: 0.08272323757, blue: 0.1096622124, alpha: 1)))
@@ -80,23 +80,23 @@ struct WidgetEntryView: View {
             Image("firstAstronaut")
                 .resizable()
                 .frame(width: 60, height: 60, alignment: .leading)
-                .offset(x: 0, y: 10)
+                .offset(x: (geometry.size.width / 2) - 70, y: 10)
             
             Image("secondAstronaut")
                 .resizable()
                 .frame(width: 65, height: 65, alignment: .leading)
-                .offset(x: geometry.size.width - 62, y: geometry.size.height - 75)
+                .offset(x: (geometry.size.width  / 2) + 25, y: geometry.size.height - 75)
         }
     }
     
-    private func determineTimeString() -> String {
-        let currentTimeFormatter = DateFormatter()
-        currentTimeFormatter.dateFormat = "HH:mm"
-        
-        let currentTime = currentTimeFormatter.string(from: Date())
-        
-        return currentTime
-    }
+//    private func determineTimeString() -> String {
+//        let currentTimeFormatter = DateFormatter()
+//        currentTimeFormatter.dateFormat = "HH:mm"
+//
+//        let currentTime = currentTimeFormatter.string(from: Date())
+//
+//        return currentTime
+//    }
     
 }
 
@@ -110,7 +110,7 @@ struct ClockWidget: Widget {
         }
         .configurationDisplayName("Clock")
         .description("This is a clock widget for the two astronauts meme.")
-        .supportedFamilies([.systemSmall])
+        .supportedFamilies([.systemSmall, .systemMedium])
     }
 }
 

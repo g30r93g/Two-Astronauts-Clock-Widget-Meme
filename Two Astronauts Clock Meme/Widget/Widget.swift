@@ -59,6 +59,9 @@ struct WidgetEntryView: View {
                         .font(.custom("RobotoMonoForPowerline-Medium", size: 36))
                         .foregroundColor(.white)
                         .multilineTextAlignment(.center)
+                        .lineLimit(1)
+                        .environment(\.locale, .init(identifier: "en-gb"))
+                        
                     
                     Text("?")
                         .font(.custom("RobotoMonoForPowerline-Medium", size: 12))
@@ -79,13 +82,13 @@ struct WidgetEntryView: View {
             
             Image("firstAstronaut")
                 .resizable()
-                .frame(width: 60, height: 60, alignment: .leading)
+                .frame(width: 50, height: 50, alignment: .leading)
                 .offset(x: (geometry.size.width / 2) - 70, y: 10)
             
             Image("secondAstronaut")
                 .resizable()
-                .frame(width: 65, height: 65, alignment: .leading)
-                .offset(x: (geometry.size.width  / 2) + 25, y: geometry.size.height - 75)
+                .frame(width: 60, height: 60, alignment: .leading)
+                .offset(x: (geometry.size.width  / 2) + 20, y: geometry.size.height - 70)
         }
     }
     
@@ -118,5 +121,6 @@ struct Widget_Previews: PreviewProvider {
     static var previews: some View {
         WidgetEntryView(entry: SimpleEntry(date: Date()))
             .previewContext(WidgetPreviewContext(family: .systemSmall))
+//            .environment(\.locale, .init(identifier: "en-gb"))
     }
 }

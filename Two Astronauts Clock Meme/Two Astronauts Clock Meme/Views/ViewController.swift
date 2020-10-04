@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     // MARK: IBOutlets
     @IBOutlet weak private var sizePicker: UISegmentedControl!
     @IBOutlet weak private var sizeWidthConstraint: NSLayoutConstraint!
+    @IBOutlet weak private var widgetPreview: UIView!
     @IBOutlet weak private var timeLabel: UILabel!
     
     // MARK: Properties
@@ -81,12 +82,18 @@ class ViewController: UIViewController {
     @IBAction private func sizePickerChangedValue(_ sender: UISegmentedControl) {
         switch sender.selectedSegmentIndex {
         case 0:
-            UIView.animate(withDuration: 0.5) {
-                self.sizeWidthConstraint.constant = 200
+            self.sizeWidthConstraint.constant = 200
+            self.widgetPreview.setNeedsUpdateConstraints()
+            
+            UIView.animate(withDuration: 0.3) {
+                self.widgetPreview.layoutIfNeeded()
             }
         case 1:
-            UIView.animate(withDuration: 0.5) {
-                self.sizeWidthConstraint.constant = 300
+            self.sizeWidthConstraint.constant = 300
+            self.widgetPreview.setNeedsUpdateConstraints()
+            
+            UIView.animate(withDuration: 0.3) {
+                self.widgetPreview.layoutIfNeeded()
             }
         default:
             break

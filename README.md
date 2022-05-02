@@ -2,8 +2,6 @@
 
 Inspired by [1DI4R/ReachInfo](https://github.com/1DI4R/ReachInfo) jailbreak tweak, this is an iOS 14 widget that updates every minute, on the minute.
 
-Any issues, please open a PR.
-
 ## License
 
 This project is MIT Licensed.
